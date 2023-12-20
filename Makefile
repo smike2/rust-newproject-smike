@@ -13,7 +13,7 @@ lint:
 	cargo clippy --quiet
 
 test:
-	cargo test
+	cargo run increase 59
 
 run:
 	cargo run

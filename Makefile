@@ -13,7 +13,7 @@ lint:
 	cargo clippy --quiet
 
 test:
-	cargo run increase 59
+	cargo run argument1 argument2 argument3 argument4 argument5 etc
 
 run:
 	cargo run
@@ -21,4 +21,4 @@ run:
 release:
 	cargo build --release
 
-all: format lint test run
+all: lint run test
